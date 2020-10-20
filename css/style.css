@@ -16,6 +16,21 @@ h1,h2,h3 {
     color: #e67e22;
 }
 
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
 .btn {
     display: inline-block;
     color: #fff;
@@ -33,13 +48,13 @@ h1,h2,h3 {
 
 .l-heading {
     font-size: 64px;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     text-transform: uppercase;
 }
   
 .m-heading {
     font-size: 32px;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     line-height: 1.1;
     text-transform: uppercase;
 }
@@ -80,6 +95,7 @@ h1,h2,h3 {
     background-size: cover;
     background-position: center;
     height: 95vh;
+    margin-bottom: 30px;
 }
 
 .header-content {
@@ -90,3 +106,12 @@ h1,h2,h3 {
     left:0;
     right: 0;
 }
+
+/* Projekt */
+.articles-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+
