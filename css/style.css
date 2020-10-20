@@ -13,7 +13,39 @@ h1,h2,h3 {
 }
 
 .color-primary {
-    color: orange;
+    color: #e67e22;
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    background: #e67e22;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+
+}
+  
+.btn:hover {
+    background: #cf6d17;
+}
+
+.l-heading {
+    font-size: 64px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+  
+.m-heading {
+    font-size: 32px;
+    margin-bottom: 12px;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.logo {
+    margin-left: 10px;
 }
 
 /* Navbar */
@@ -43,3 +75,18 @@ h1,h2,h3 {
 }
 
 /* Header Content */
+#header-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/stockholm.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+}
+
+.header-content {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 250px;
+    left:0;
+    right: 0;
+}
