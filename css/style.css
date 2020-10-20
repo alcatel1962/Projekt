@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    font-family: 'lato', sans-serif;
+}
+
+h1,h2,h3 {
+    font-weight: 300;
+}
+
+.color-primary {
+    color: orange;
+}
+
+/* Navbar */
+#navbar {
+    display: flex;
+    background: #fff;
+    color: #000;
+    justify-content: space-between;
+    box-shadow: 0 2px 2px #efefef;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar ul li a {
+    padding: 12px;
+    margin: 12px;
+    text-decoration: none;
+    color: #000;
+}
+
+#navbar li a:hover {
+    border-bottom: 2px solid #e67e22;
+}
+
+/* Header Content */
